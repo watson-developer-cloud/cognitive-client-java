@@ -1,4 +1,4 @@
-# cognitive_client
+# Cognitive Client
 This project contains several methods to make it easy to use Watson Developer Cloud services, particularly NaturalLanguageUnderstanding and AlchemyLanguage, to analyze multiple documents. Some of the key features include:
 * Performing Web searches and feeding the results directly to the Watson Developer Cloud. The user can specify the number of documents to search for, as well as whether to search the entire Web or only news stories.
 * Aggregating results across multiple documents. These documents might have been obtained via Web searches, although this does not have to be the case.
