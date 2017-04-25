@@ -1,15 +1,15 @@
 /**
  * 
  */
-package com.ibm.watson.cognitive_client;
+package com.ibm.watson.developer_cloud.cognitive_client;
 
 import java.io.File;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 
-import com.ibm.watson.cognitive_client.Search.SearchType;
-import com.ibm.watson.cognitive_client.Util.DataType;
+import com.ibm.watson.developer_cloud.cognitive_client.Search.SearchType;
+import com.ibm.watson.developer_cloud.cognitive_client.Util.DataType;
 
 /**
  * @author ArunIyengar
@@ -123,7 +123,7 @@ public class DataManager {
                 newdata.writeToFile(createFullPath(analysisFileName(name), dataDirectory));
             }
         }
-        System.out.println("CallService.analyzeWebSearchResults: " + urls.size() + " urls analyzed, "
+        System.out.println("DataManager.analyzeWebSearchResults: " + urls.size() + " urls analyzed, "
                 + numAnalyzed + " results obtained");
         return data;
     }

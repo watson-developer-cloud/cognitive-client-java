@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ibm.watson.cognitive_client;
+package com.ibm.watson.developer_cloud.cognitive_client;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,10 +10,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.ibm.watson.cognitive_client.Util.DataType;
-import com.ibm.watson.cognitive_client.Util.NaturalLanguageService;
 import com.ibm.watson.developer_cloud.alchemy.v1.AlchemyLanguage;
 import com.ibm.watson.developer_cloud.alchemy.v1.model.CombinedResults;
+import com.ibm.watson.developer_cloud.cognitive_client.Util.DataType;
+import com.ibm.watson.developer_cloud.cognitive_client.Util.NaturalLanguageService;
 
 /**
  * @author ArunIyengar

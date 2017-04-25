@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ibm.watson.cognitive_client;
+package com.ibm.watson.developer_cloud.cognitive_client;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -18,7 +18,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-import com.ibm.watson.cognitive_client.Search.SearchType;
+import com.ibm.watson.developer_cloud.cognitive_client.Search.SearchType;
 
 /**
  * @author ArunIyengar

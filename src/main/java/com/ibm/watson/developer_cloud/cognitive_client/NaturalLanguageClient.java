@@ -1,10 +1,10 @@
 /**
  * 
  */
-package com.ibm.watson.cognitive_client;
+package com.ibm.watson.developer_cloud.cognitive_client;
 
-import com.ibm.watson.cognitive_client.Util.DataType;
-import com.ibm.watson.cognitive_client.Util.NaturalLanguageService;
+import com.ibm.watson.developer_cloud.cognitive_client.Util.DataType;
+import com.ibm.watson.developer_cloud.cognitive_client.Util.NaturalLanguageService;
 
 
 /**
