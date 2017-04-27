@@ -17,6 +17,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 import com.ibm.watson.developer_cloud.cognitive_client.Search.SearchType;
 
@@ -305,4 +306,9 @@ public class Util {
         }
     }
 
+    // Get input string from the user
+    static String readInputString(String prompt, Scanner input) { 
+        System.out.print(prompt);
+        return input.next();
+    }  
 }
