@@ -5,20 +5,17 @@ package com.ibm.watson.developer_cloud.cognitive_client;
 
 import java.util.Scanner;
 
-import org.junit.Test;
-
 import com.ibm.watson.developer_cloud.cognitive_client.Search.SearchType;
 import com.ibm.watson.developer_cloud.cognitive_client.Util;
 
 /**
  * @author ArunIyengar
  *
- * These tests require users to provide input paramaeters
+ * These tests require users to provide input paramaeters. The tests are run by running the main method.
  */
 public class TestUtilitiesWithInput {
     
-    @Test
-    public void storeWebPages() {
+    public static void storeWebPages() {
         try (Scanner input = new Scanner(System.in)) {
             String url1 = "https://www.ibm.com";
             String url2 = "https://www.google.com";
@@ -34,6 +31,10 @@ public class TestUtilitiesWithInput {
             directory = Util.readInputString("Enter directory where files are to be stored: ", input);
             Util.searchWeb(query, numResults, SearchType.GOOGLE_REGULAR, directory, ".html");
         }
+    }
+    
+    public static void main(String[] args) {
+        storeWebPages();
     }
     
 }

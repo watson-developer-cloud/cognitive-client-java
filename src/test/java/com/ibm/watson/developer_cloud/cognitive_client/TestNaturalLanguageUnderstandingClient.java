@@ -5,21 +5,18 @@ package com.ibm.watson.developer_cloud.cognitive_client;
 
 import java.util.Scanner;
 
-import org.junit.Test;
-
 import com.ibm.watson.developer_cloud.cognitive_client.NaturalLanguageClient;
 import com.ibm.watson.developer_cloud.cognitive_client.NaturalLanguageUnderstandingClient;
 
 /**
  * @author ArunIyengar
- *
+ * This class tests the NaturalLanguageUnderstanding client. In order to run it, invoke the main method.
  */
-public class TestNaturalLanguageClient {
+public class TestNaturalLanguageUnderstandingClient {
     
     private final static int MAX_RESPONSES = 5; // limit on quantity of items returned by NaturalLanguageUnderstanding
 
-    @Test
-    public void testNaturalLanguageClient() {
+    public static void testNLUClient() {
         System.out.println("Running tests for NaturalLanguageUnderstanding");
         try (Scanner input = new Scanner(System.in)) {
             String username = Util.readInputString("Enter user name: ", input);
@@ -29,4 +26,8 @@ public class TestNaturalLanguageClient {
         }
     }
 
+    public static void main(String[] args) {
+        testNLUClient();
+    }
+    
 }

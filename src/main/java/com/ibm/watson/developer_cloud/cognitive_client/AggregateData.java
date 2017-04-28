@@ -329,9 +329,6 @@ public class AggregateData implements Serializable {
     /**
      * Add new raw data to list of raw data
      * 
-     * @param data
-     *      new raw data to add
-     *      
      */
     public void addRawData() {
         rawData.add(analysisResults);

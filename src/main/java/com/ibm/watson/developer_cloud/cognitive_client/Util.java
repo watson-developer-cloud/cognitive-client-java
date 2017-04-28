@@ -119,7 +119,7 @@ public class Util {
      * 
      * @param string
      *            string to store
-     * @param filename
+     * @param fileName
      *            string denoting full path to file
      * 
      * */
