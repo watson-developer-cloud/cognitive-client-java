@@ -19,6 +19,7 @@ public class TestAlchemyClient {
     @Test
     public void testAlchemyLanguageClient() {
         System.out.println("Running tests for AlchemyLanguage");
+
         try (Scanner input = new Scanner(System.in)) {
             String apikey = Util.readInputString("Enter API key for AlchemyLanguage: ", input);
             NaturalLanguageClient client = new AlchemyClient(apikey);

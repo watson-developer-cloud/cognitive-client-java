@@ -137,7 +137,13 @@ public class NaturalLanguageUnderstandingClient implements NaturalLanguageClient
             break;
         }
         AnalyzeOptions parameters = builder.build();
-        AnalysisResults results = service.analyze(parameters).execute();
+        AnalysisResults results;
+        try {
+            results = service.analyze(parameters).execute();
+        }
+        catch (Exception e) {
+            return null;
+        }
         AggregateData data = new AggregateData(description);
         for (CategoriesResult result : results.getCategories()) {
             String label = result.getLabel();

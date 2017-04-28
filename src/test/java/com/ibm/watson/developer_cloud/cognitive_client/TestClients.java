@@ -31,6 +31,9 @@ class TestClients {
         String url = "https://www.britannica.com/technology/computer";
         String explanation = "the computer entry from Encyclopedia Brittanica";
         AggregateData ad = client.analyzeData(url, DataType.URL, explanation);
+        if (ad == null) {
+            return;
+        }
         ad.addRawData();
         System.out.println("This test analyzes URL " + url + " representing " + explanation + ", stores"
                 + " the results\nin a file, reads the results from the file, and outputs the results retrieved"
