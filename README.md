@@ -26,7 +26,7 @@ If Apache Maven is being used, the following dependency should be included:
 
 ## Using the Cognitive Client
 
-The following classes should be imported:
+The following classes should be imported as needed:
 ~~~ java
 import com.ibm.watson.developer_cloud.cognitive_client.AggregateData;
 import com.ibm.watson.developer_cloud.cognitive_client.AggregateData.Data;
