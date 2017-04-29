@@ -11,15 +11,31 @@ This project contains several methods to make it easy to use Watson Developer Cl
 
 ## Getting Started
 
+## Installation
+
+##### Maven
+
+If Apache Maven is being used, the following dependency should be included:
+```xml
+<dependency>
+		 <groupId>com.ibm.watson.developer_cloud</groupId>
+		 <artifactId>java-sdk</artifactId>
+		 <version>3.8.0</version>
+</dependency>
+```
+## Using the Cognitive Client
+
 The following classes should be imported:
 ~~~ java
-import com.ibm.watson.cognitive_client.AggregateData;
-import com.ibm.watson.cognitive_client.AlchemyClient;
-import com.ibm.watson.cognitive_client.DataManager;
-import com.ibm.watson.cognitive_client.NaturalLanguageClient;
-import com.ibm.watson.cognitive_client.NaturalLanguageUnderstandingClient;
-import com.ibm.watson.cognitive_client.Search.SearchType;
-import com.ibm.watson.cognitive_client.Util.DataType;
+import com.ibm.watson.developer_cloud.cognitive_client.AggregateData;
+import com.ibm.watson.developer_cloud.cognitive_client.AggregateData.Data;
+import com.ibm.watson.developer_cloud.cognitive_client.AlchemyClient;
+import com.ibm.watson.developer_cloud.cognitive_client.DataManager;
+import com.ibm.watson.developer_cloud.cognitive_client.NaturalLanguageClient;
+import com.ibm.watson.developer_cloud.cognitive_client.NaturalLanguageUnderstandingClient;
+import com.ibm.watson.developer_cloud.cognitive_client.Search.SearchType;
+import com.ibm.watson.developer_cloud.cognitive_client.Util;
+import com.ibm.watson.developer_cloud.cognitive_client.Util.DataType;
 ~~~
 There are two natural language services that can used with our cogitive client: Alchemy and Natural Language Understanding which are both available from IBM's  Watson Developer Cloud. The following creates a client for Alchemy:
 ~~~ java
