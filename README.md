@@ -17,12 +17,13 @@ This project contains several methods to make it easy to use Watson Developer Cl
 
 If Apache Maven is being used, the following dependency should be included:
 ```xml
-<dependency>
-		 <groupId>com.ibm.watson.developer_cloud</groupId>
-		 <artifactId>java-sdk</artifactId>
-		 <version>3.8.0</version>
-</dependency>
+  	<dependency>
+  		<groupId>com.ibm.watson.developer_cloud</groupId>
+  		<artifactId>cognitive-client-java</artifactId>
+  		<version>1.0</version>
+  	</dependency> 	
 ```
+
 ## Using the Cognitive Client
 
 The following classes should be imported:
