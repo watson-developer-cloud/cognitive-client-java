@@ -24,6 +24,14 @@ If Apache Maven is being used, the following dependency should be included:
   	</dependency> 	
 ```
 
+##### Gradle
+
+If Gradle is being used, the following dependency should be included:
+```gradle
+    compile 'com.ibm.watson.developer_cloud:cognitive-client-java:1.0'
+```
+
+
 ## Using the Cognitive Client
 
 The following classes should be imported as needed:
