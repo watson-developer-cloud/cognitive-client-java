@@ -31,10 +31,6 @@ If Gradle is being used, the following dependency should be included:
     compile 'com.ibm.watson.developer_cloud:cognitive-client-java:1.0'
 ```
 
-##### Without a dependency manager
-An alternative way to install the cognitive client is to download the following jar file and add it to the Java build path:
-* <a href="https://github.com/watson-developer-cloud/cognitive-client-java/releases/download/v1.0.0/cognitive-client-java-1.0-jar-with-dependencies.jar">cognitive-client-java-1.0-jar-with-dependencies.jar</a>
-
 ## Using the Cognitive Client
 
 The following classes should be imported as needed:
